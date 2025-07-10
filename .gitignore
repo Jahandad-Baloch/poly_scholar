@@ -3,3 +3,15 @@ requirements_wo_versions.txt
 .env
 project_description/
 docs/
+# Ignore GitHub and VSCode config
+.github/
+.github/copilot-instructions.md
+.vscode/
+.vscode/settings.json
+# Ignore Python virtual environments
+.venv/
+# Ignore Python cache files
+__pycache__/
+tests/__pycache__/
+tests/__pycache__/test_prompts.cpython-313.pyc
+tests/__pycache__/test_tools.cpython-313.pyc
