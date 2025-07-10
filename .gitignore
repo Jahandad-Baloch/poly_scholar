@@ -1,0 +1,5 @@
+data/backup/
+requirements_wo_versions.txt
+.env
+project_description/
+docs/

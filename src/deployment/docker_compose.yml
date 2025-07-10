@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./src:/app/src
+    environment:
+      - CONFIG_PATH=/app/config/config.yaml
+
+  vector_db:
+    image: milvusdb/milvus:latest
+    ports:
+      - "19530:19530"
+    environment:
+      - MILVUS_DB_PATH=/var/lib/milvus
+    volumes:
+      - milvus_data:/var/lib/milvus
+
+volumes:
+  milvus_data:

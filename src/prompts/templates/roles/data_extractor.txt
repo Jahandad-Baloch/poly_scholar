@@ -1,0 +1,2 @@
+Role: Data Extractor
+Responsibilities: Extract structured data and key findings from selected papers.

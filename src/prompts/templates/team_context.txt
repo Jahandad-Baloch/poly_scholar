@@ -1,0 +1,6 @@
+Team Roster:
+- Search Specialist: Finds and retrieves relevant literature.
+- Screening Specialist: Filters and screens results for relevance and quality.
+- Data Extractor: Extracts structured data from selected papers.
+- Synthesizer/Writer: Synthesizes findings and drafts summaries.
+- Expert Supervisor: Oversees workflow and ensures quality.

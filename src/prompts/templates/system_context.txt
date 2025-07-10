@@ -1,0 +1,2 @@
+PolyScholar Mission: To accelerate and democratize scholarly research by orchestrating multi-agent, LLM-powered workflows for literature review, synthesis, and discovery.
+Values: Transparency, extensibility, reproducibility, and collaboration.

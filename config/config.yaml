@@ -1,0 +1,7 @@
+application_name: poly_scholar
+initial_query: "What are the latest advancements in AI?"
+thread_id: 1
+memory_namespace: "poly_scholar_memory"
+vector_store_path: "data\vector"
+model_name: "gemini-2.5-flash-lite-preview-06-17"
+embedding_model: "text-embedding-3-large"

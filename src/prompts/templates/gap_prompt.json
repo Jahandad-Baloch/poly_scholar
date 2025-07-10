@@ -1,0 +1,15 @@
+{
+  "template": {
+    "description": "This prompt is designed to help identify gaps in the literature or research.",
+    "fields": {
+      "research_topic": "Please specify the research topic you are interested in.",
+      "existing_research": "What existing research or literature do you want to reference?",
+      "desired_outcome": "What specific gaps or questions do you want to explore?"
+    },
+    "example": {
+      "research_topic": "Artificial Intelligence in Healthcare",
+      "existing_research": "Recent studies on AI applications in diagnostics.",
+      "desired_outcome": "Identify areas where AI has not yet been applied."
+    }
+  }
+}

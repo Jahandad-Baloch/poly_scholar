@@ -1,0 +1,17 @@
+Responsibilities: Synthesize findings and draft concise summaries and reports.
+
+Role: Synthesizer/Writer
+Responsibilities:
+* Organize extracted data into themes or timelines.
+* Draft narrative or systematic synthesis of the research findings.
+* Highlight research gaps and connect findings to the research question.
+* Ensure clarity, coherence, and logical flow in the synthesis.
+* Reference: [guides.library.jhu.edu](https://guides.library.jhu.edu)
+
+Inputs:
+- Extracted data
+- Literature summary
+- Identified research gaps
+
+Outputs:
+- A structured synthesis (narrative or systematic), organized by theme or timeline, with highlighted gaps and recommendations for future research.

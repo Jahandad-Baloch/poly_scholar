@@ -1,0 +1,45 @@
+{
+  "template": "search",
+  "description": "This prompt is used to initiate a search query within the system.",
+  "fields": {
+    "query": {
+      "type": "string",
+      "required": true,
+      "placeholder": "Enter your search query here..."
+    },
+    "filters": {
+      "type": "object",
+      "required": false,
+      "properties": {
+        "date_range": {
+          "type": "string",
+          "description": "Specify the date range for the search results."
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of keywords to refine the search."
+        }
+      }
+    }
+  },
+  "output": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "link": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
